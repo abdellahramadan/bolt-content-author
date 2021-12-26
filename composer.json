@@ -1,0 +1,30 @@
+{
+  "name": "abdellahramadan/bolt-content-author",
+  "description": "An extension to help set a different author other the one editing the content",
+  "type": "bolt-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdellah Ramadan",
+      "email": "abdellahramadan24@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "twig/twig": "^2.12 | ^3.0"
+  },
+  "require-dev": {
+    "bolt/core": "^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AbdellahRamadan\\BoltContentAuthor\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "entrypoint": "BobDenOtter\\MyAwesomeExtension\\Extension"
+  }
+}
